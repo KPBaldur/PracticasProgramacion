@@ -1,2 +1,4 @@
 # PracticasProgramacion
-Practicas de programacion.
+
+
+Estas son mis practicas diarias de programacion.
