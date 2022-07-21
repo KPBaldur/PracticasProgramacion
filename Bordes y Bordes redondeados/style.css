@@ -1,0 +1,27 @@
+div {
+    background: #226fc1;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.caja1 {
+    border:7px solid #000;
+    border-radius: 20px;
+}
+
+.caja2 {
+    border: 7px dotted #000;
+    border-radius: 0 10PX 30PX 50PX;
+}
+
+.caja3 {
+    border: 7px dashed #000;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.caja4 {
+    border: 7px double #000;
+    border-radius: 100%;
+}
