@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "D-DIN" ;
+    src: url('fonts/D-DIN.otf');
+}
+
+@font-face {
+    font-family: "D-DIN-Bold" ;
+    src: url('fonts/D-DIN-Bold.otf');
+}
+
+@font-face {
+    font-family: "D-DIN-Condensed" ;
+    src: url('fonts/D-DINCondensed.otf');
+}
+
+@font-face {
+    font-family: "D-DINExp" ;
+    src: url('fonts/D-DINExp.otf');
+}
+
+@font-face {
+    font-family: "D-DINItalic" ;
+    src: url('fonts/D-DIN-Italic.otf');
+}
+
+body {
+    font-family: D-DIN;
+}
+
+h1 {
+    font-weight: normal;
+}
