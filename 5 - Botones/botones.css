@@ -1,0 +1,50 @@
+body{
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+div{
+    margin: 20px 0;
+}
+
+.btn{
+    background: #32021f;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.small{
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.medium{
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.big{
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.extrabig{
+    font-size: 24px;
+    padding: 10px 15px;
+}
+
+.azul { background: #246eb9;}
+.verde { background: #4fb560;}
+.naranja {background: #f9a03f;}
+
+.border-radius{
+    border-radius: 100px;
+}
