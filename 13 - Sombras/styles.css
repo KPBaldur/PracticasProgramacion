@@ -1,0 +1,14 @@
+.texto {
+   /* text-shadow:2px 3px 15px #000; */
+
+   color: #fff;
+   text-shadow:2px 0px 10px blue;
+}
+
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #f79256;
+    box-shadow:0px 5px 10px rgba(0,0,0,.5);
+} 
