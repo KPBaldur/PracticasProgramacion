@@ -1,0 +1,164 @@
+<style>
+
+    .fide-header {
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .flexformulario1 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+ }
+    
+
+ <!--   .flexformulario1 .formulario-redes{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+ } -->
+
+    .buton-formulario {
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    @media screen and (max-width: 768px){
+        .flexformulario1 .formulario-redes{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+     </style>
+     
+     
+     
+     <div id="fide-content-code-embed">
+         <link href="https://publiccl1.fidelizador.com/css/jquery.ui.css" rel="stylesheet" media="all" />
+     
+         <script>    
+             document.onreadystatechange=function() {
+                 if (document.readyState === 'complete')
+                  {
+                     var charset = document.charset && document.charset !== "windows-1252" ?
+                         document.charset : 'UTF-8';
+                     document.getElementById("fide-embed-form").acceptCharset =  charset;
+                 }
+     
+             };
+     
+         </script>
+     
+         <div class="fide-header">
+     
+         </div>
+     
+         <div class="fide-form">
+            <form id="fide-embed-form" action="https://publiccl1.fidelizador.com/fashion3/form/4D985F23A03E1BA41BCCC08E1A4BCB9C577F1136512A/subscription/save" method="POST">
+         
+                <div class="flexformulario1">
+                    <div class="input-name">
+                        <!-- NOMBRE -->
+                        <label class="control-label required" for="subscription_firstName">Nombre*</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!--INPUT NOMBRE -->
+                        <input type="text" id="subscription_firstName" name="subscription[firstName]" required="required" rel="required-field" placeholder="" required="required" class="form-control" autocomplete="off" />
+                    </div>
+                    
+                    <div class="input-name">
+                        <!-- APELLIDO -->
+                        <label class="control-label required" for="subscription_lastName">Apellido*</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!--INPUT APELLIDO -->
+                        <input width="100%" type="text" id="subscription_lastName" name="subscription[lastName]" required="required" rel="required-field" placeholder="" required="true" class="form-control" autocomplete="off" />
+                    </div>
+
+                    <div>
+                        <!-- CORREO ELECTRONICO -->
+                        <label class="control-label required" for="subscription_email">E-mail *</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!-- INPUT CORREO ELECTRONICO -->
+                        <input type="text" id="subscription_email" name="subscription[email]" required="required" rel="required-field" placeholder="Ingresa un email válido" required="required" class="form-control" autocomplete="off" /> 
+                    </div>
+
+                    <div>
+                        <!-- CELULAR -->
+                        <label class="control-label required" for="subscription_field_26">Nº Celular</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!--INPUT CELULAR -->
+                        <input type="text" id="subscription_cellphone" name="subscription[cellphone]" required="required" rel="required-field" placeholder="+56912345678" required="required" class="form-control" autocomplete="off" />
+                    </div>
+                    
+                    <div>
+                        <!-- INSTAGRAM -->
+                        <label class="control-label required" for="subscription_field_27">Instagram</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!--INPUT -->
+                        <input type="text" id="subscription_field_27" name="subscription[field_27]" required="required" rel="required-field" placeholder="@ejemplo" required="true" class="form-control" autocomplete="off" />
+                    </div>
+
+                    <div>
+                        <!-- INSTAGRAM SEGUIDORES -->
+                        <label class="control-label required" for="subscription_field_28">Nº Seguidores</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!--INPU INSTAGRAM SEGUIDORES -->
+                        <input type="text" id="subscription_field_28" name="subscription[field_28]" required="required" rel="required-field" placeholder="" required="true" class="form-control" autocomplete="off" />
+                    </div>
+
+                    <div>
+                        <!-- TIKTOK -->
+                        <label class="control-label required" for="subscription_field_29">Tiktok</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!--INPU INSTAGRAM SEGUIDORES -->
+                        <input type="text" id="subscription_field_29" name="subscription[field_29]" required="required" rel="required-field" placeholder="Usuario" required="true" class="form-control" autocomplete="off" />
+                    </div>
+                    
+                    <div>
+                        <!-- TIKTOK SEGUIDORES-->
+                        <label class="control-label required" for="subscription_field_30">Nº Seguidores</label> <span class="opcionobligatoria" ></span class="opcionobligatoria"><br>
+                        <!--INPU TIKTOK SEGUIDORES -->
+                        <input type="text" id="subscription_field_30" name="subscription[field_30]" required="required" rel="required-field" placeholder="" required="true" class="form-control" autocomplete="off" />
+                    </div>
+                </div>
+
+                                     <div class="help-block">
+     
+                                     </div>            
+      
+     
+                                 <input type="hidden" name="embed" value="1" />
+     
+                
+     
+                             <br>
+     
+                 <div id="fide-result"></div>
+                
+                <div class="buton-formulario">
+                    <input type="submit" value="Enviar  >" class="btn-send-form-fide" />
+                </div>
+     
+            </form>
+     
+        </div>
+     
+        <div class="fide-footer">
+     
+        </div>
+                 <script src="https://publiccl1.fidelizador.com/js/form/base.js" async defer></script>
+     </div>
